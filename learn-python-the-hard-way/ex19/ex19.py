@@ -22,3 +22,23 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+
+# study drill #3:
+def check_if_enough_cheese_and_crackers(cheese_count, boxes_of_crackers_count):
+    if (cheese_count + boxes_of_crackers_count) > 10:
+        print "that's enough!"
+    else:
+        print "not enough."
+
+
+check_if_enough_cheese_and_crackers(2, 5)
+check_if_enough_cheese_and_crackers(20, 5)
+check_if_enough_cheese_and_crackers(10, -5)
+check_if_enough_cheese_and_crackers(11, 22)
+check_if_enough_cheese_and_crackers(11, 22)
+check_if_enough_cheese_and_crackers(0, 23)
+check_if_enough_cheese_and_crackers(0, 0)
+check_if_enough_cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+check_if_enough_cheese_and_crackers(amount_of_cheese * 5, amount_of_crackers * -10)
+check_if_enough_cheese_and_crackers(amount_of_cheese-1, amount_of_crackers-2)
