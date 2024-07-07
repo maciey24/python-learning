@@ -27,3 +27,10 @@ for i in range(0, 6):
 # now we can print them out too
 for i in elements:
     print "Element was: %d" % i
+
+# study drills and experiments:
+elements = range(1, 10)
+print "elements: %s" % elements
+
+for i in change:
+    print "I got %s" % i
