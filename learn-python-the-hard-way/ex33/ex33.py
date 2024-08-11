@@ -58,5 +58,5 @@ numbers = []
 iterate_append_with_step(20, 5)
 
 numbers = []
-iterate_append_with_step_and_range(20, 5)
+iterate_append_with_step_and_range(30, 5)
 
